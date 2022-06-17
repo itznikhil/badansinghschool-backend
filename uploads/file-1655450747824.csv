@@ -1,0 +1,41 @@
+,,,,
+Date ,Task,Feature,Hours,Project
+08/05/2022,Estimation hours,na,1,NFT-Swagg Shop
+09/05/2022,Research,customize tshirt with nft galeto,5,NFT-Swagg Shop
+10/05/2022,Estimation hours,na,1,retroh
+11/05/2022,"store the access token in secrets manager and use it if it's not expired (1 hour). 
+If it's expired, need to generate a new one and update the one that is stored,
+ then use it.",Update handler.py,4,aceplp-cdk-serverless
+12/05/2022,Research,metamask,6,retroh
+13/05/2022,research,twitter & discord,7,retroh
+14/05/2022,research,creating mock api,2,retroh
+16/05/2022,research,creating mock api,2,retroh
+16/05/2022,research,creating mock api,4,retroh
+18/05/2022,research,creating mock api,4,retroh
+19/05/2022,research,creating mock api,6,retroh
+20/05/2022,documents and final touch,final touch,4,retroh
+21/05/2022,nft project,nft project,3,nft project
+22/05/2022,research,twitter v2 bcz twitter v1 can deperecate ,4,retroh
+23/05/2022,retroh initialization,packages,2,retroh
+24/05/2022,metamask backend,backend,8,retroh
+25/05/2022,code review and quality test,create image pdf,1,nft project
+25/05/2022,frontend ,dummy,8,retroh
+25/05/2022,invite backend,invite,3,retroh
+26/05/2022,invite backend + frontend,invite,13,retroh
+27/05/2022,discord complete frontend backend + some extra invite part,discord,13,retroh
+28/05/2022,twitter api,login,11,retroh
+29/05/2022,twitter api some more part,some more,5,retroh
+30/05/2022,twitter + vishwa mam work,vishwa mam work,11,retroh
+31/05/2022,twitter part finishing,almost finish,10,retroh
+01/06/2022,finsihsed,finished,8,retroh
+02/06/2022,moved everything to backend instead of frontend everything in process.env,finsihed,4,retroh
+04/06/2022,"fixed everything remove discord component and called it in app.js to make it more secure and done all the part on backend
+twitter follow , tweet ,, retweet fixed to be on backend env not file frontend ",finished,5,retroh
+08/06/2022,created 3 endpoints,finished,5,noobstrom
+10/06/0202,created document,finsihed,3,noobstrom
+11/06/2022,done neel work,3 endpoints,2,noobstrom
+12/06/2022,extra work neel,fixing table creating ,2,noobstrom
+13/06/2022,payment integration razorpay checkout order cart api,many endpoints with payment integration,8,noobstrom
+14/06/2022,integration api,product details and product listing,5,noobstrom
+15/06/2022,cart done,full cart work with 2 more apis,8,noobstrom
+16/06/2022,complete store integration,store,8,noobstrom
