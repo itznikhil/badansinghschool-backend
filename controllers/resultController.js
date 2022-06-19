@@ -11,7 +11,7 @@ const getResults = asyncHandler(async (req, res) => {
 
 // @desc    Fetch the result
 // @route   POST /api/results/getByClassAndYear
-// @access   Private
+// @access   publi
 const getResultByClassAndYear = asyncHandler(async (req, res) => {
   const results = await Result.find({
     class: req.body.class,

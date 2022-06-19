@@ -9,12 +9,11 @@ import {
 import { protect, admin } from "../middleware/authMiddleware.js";
 import { upload } from "../middleware/uploadMiddleware.js";
 
+router.route("/getByClassAndYear").post(getResultByClassAndYear);
 router
   .route("/")
   .get(getResults)
   .post(protect, admin, upload.single("file"), createResult);
-
-router.route("/getByClassAndYear").post(getResultByClassAndYear);
 
 router.route("/:id").delete(protect, admin, deleteResult);
 
