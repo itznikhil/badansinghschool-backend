@@ -9,6 +9,17 @@ const getResults = asyncHandler(async (req, res) => {
   res.json(results);
 });
 
+// @desc    Fetch the result
+// @route   POST /api/results/getByClassAndYear
+// @access   Private
+const getResultByClassAndYear = asyncHandler(async (req, res) => {
+  const results = await Result.find({
+    class: req.body.class,
+    year: req.body.year,
+  });
+  res.json(results);
+});
+
 // @desc    Delete a Result
 // @route   DELETE /api/results/:id
 // @access   Private/Admin
@@ -36,4 +47,4 @@ const createResult = asyncHandler(async (req, res) => {
   res.status(201).json(createdResult);
 });
 
-export { createResult, getResults, deleteResult };
+export { createResult, getResults, deleteResult, getResultByClassAndYear };
